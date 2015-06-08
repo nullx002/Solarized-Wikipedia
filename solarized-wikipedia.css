@@ -616,12 +616,6 @@ table   /* check this! i added this for "roma" on italian wikipedia */
   #toc #toctitle
    { display: none !important; }
  
- 
- 
- 
- 
- 
- 
 /* footer */
  
 #footer
@@ -630,7 +624,6 @@ table   /* check this! i added this for "roma" on italian wikipedia */
   margin: 0 !important; 
   padding: 15px 0 !important; 
   background-color: #073642 !important; 
- 
  }
  
 #footer-info
@@ -639,21 +632,15 @@ table   /* check this! i added this for "roma" on italian wikipedia */
   margin: 0 auto !important; 
   font-size: 18px !important; 
   font-style: italic !important;
- 
- 
  }
  
 #footer li:not(#footer-info-lastmod)
  {
-  display: none !important; 
- 
+  display: none !important;
  }
  
 #footer ul li {color: #839496 !important;}
- 
 }
- 
- 
  
 /* Misc added later*/
  
