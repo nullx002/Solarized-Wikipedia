@@ -12,4 +12,22 @@ If anybody interested can create a light version of this too as I almost always 
 
 This theme is orignally by <a rel"author" href="https://userstyles.org/styles/99515/wikipedia-1911-rotane">rotane</a> published on userstyles.org. I modified it according to my needs for fontsizes, spacing etc. but retained the color-palette of solarized theme by Ethan. 
 
+I created it as a replacement for the vector.css on English version of Wikipedia but it is working on all wikipedia sister projects without any problems. It should work well with other languages on wikipedia. Original design explanation for the theme can be found <a rel="author" href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia">here</a>.
+
+## Usage
+
+#### Links
+
+Solarized - http://ethanschoonover.com/solarized
+
+1910 - http://blog.weare1910.com/post/75576312730/a-readable-wikipedia
+
+UserStyles - https://userstyles.org/styles/99515/wikipedia-1911-rotane
+
+Original Theme - http://rotane.deviantart.com/journal/Wikipedia-is-aweful-442134673
+
+Ethan Schoonover - https://twitter.com/ethanschoonover
+
+#### License
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Solorized Wikipedia</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/nullx002" property="cc:attributionName" rel="cc:attributionURL">Nullx002</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://rotane.deviantart.com/journal/Wikipedia-is-aweful-442134673" rel="dct:source">http://rotane.deviantart.com/journal/Wikipedia-is-aweful-442134673</a>.<br />Originally inspired from 1910 design. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia" rel="cc:morePermissions">http://blog.weare1910.com/post/75576312730/a-readable-wikipedia</a>.
