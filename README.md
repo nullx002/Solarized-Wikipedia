@@ -1,10 +1,10 @@
 # Solarized-Wikipedia
 Solarized Wikipedia Theme
 
-Currently I have created only Dark version, if you prefer light version you can use palette from ethanschoonover to create your light theme. Easiest way to do it is to replace #xxxxxx of dark theme with corresponding #xxxxxx of light theme in css file with find/replace function of your editor.
+Currently I have created only Dark version, if you prefer light version you can use palette from ethanschoonover to create your light theme. Easiest way to do this is to replace #xxxxxx of dark theme with corresponding #xxxxxx of light theme in css file with find/replace function of your editor.
 
 ## Solarized Theme
-Solarized color palette was created by <a rel="author" href="http://ethanschoonover.com/solarized">Ethan Schoonover</a> in two modes - dark and light - basically for people/coders who use terminal like environment. It is available for various text editors and IDEs and some of them are now bundeled with them by default.
+Solarized color palette was created by <a rel="author" href="http://ethanschoonover.com/solarized">Ethan Schoonover</a> in two modes - dark and light - basically for people/coders who use terminal like environment. It is available for various text editors and IDEs and some of them are now bundeled with it by default.
 
 Those who read wikipedia for long hours may have noticed that it is sometimes stressfull for your eyes with basic themes of wikipedia. Especially on large monitors small fonts/text hurt your eyes after prolonged reading. So I have created a dark version of Solorized theme for wikipedia.
 
@@ -26,7 +26,7 @@ Login to Wikipedia -> go to https://en.wikipedia.org/wiki/Special:Preferences#mw
 You can repeat this for all wikipedia sister sites.
 
 ###### 2.
-User styles in browser if you don't want to login to wikipedia. Install Stylilsh plugin for Firefox. In firebox address bar type <b>about:addons</b> and hit enter. Click on User Styles and than on Write New Style. Give it a new name and save content from solarized-wikipedia.css there. Hit save and open a wikipedia page to check if it is working.
+User styles in browser, if you don't want to login to wikipedia. Install Stylilsh plugin for Firefox. In firebox address bar type <b>about:addons</b> and hit enter. Click on User Styles and than on Write New Style. Give it a new name and save content from solarized-wikipedia.css there. Hit save and open a wikipedia page to check if it is working.
 
 ##### Issues
 
