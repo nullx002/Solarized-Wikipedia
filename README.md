@@ -19,7 +19,7 @@ I created it as a replacement for the vector.css on English version of Wikipedia
 ## Usage
 
 ###### 1.
-If you are always logged-in on wikipedia and on sister projects you can replace content of vector.css with the content of solarized-wikipedia.css. It may work on all mediawiki websites other than wikipeida and also on wikipedia sister projects using mediawiki software.
+If you are always logged-in on wikipedia and on sister projects you can replace content of vector.css with the content of solarized-wikipedia.css. It may work on all mediawiki websites including wikipeida and also on wikipedia sister projects using mediawiki software.
 
 Login to Wikipedia -> go to https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-rendering -> Select Vector theme and click on Custom CSS for it -> click on <b>Edit Source</b> -> toggle editor and paste content of solarized-wikipedia.css there. -> Save and enjoy your new theme.
 
