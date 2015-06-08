@@ -1,6 +1,8 @@
 # Solarized-Wikipedia
 Solarized Wikipedia Theme
 
+Currently I have created only Dark version, if you prefer light version you can use palette from ethanschoonover to create your light theme. Easiest way to do it is to replace #xxxxxx of dark theme with corresponding #xxxxxx of light theme in css file with find/replace function of your editor.
+
 ## Solarized Theme
 Solarized color palette was created by <a rel="author" href="http://ethanschoonover.com/solarized">Ethan Schoonover</a> in two modes - dark and light - basically for people/coders who use terminal like environment. It is available for various text editors and IDEs and some of them are now bundeled with them by default.
 
@@ -15,6 +17,22 @@ This theme is orignally by <a rel"author" href="https://userstyles.org/styles/99
 I created it as a replacement for the vector.css on English version of Wikipedia but it is working on all wikipedia sister projects without any problems. It should work well with other languages on wikipedia. Original design explanation for the theme can be found <a rel="author" href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia">here</a>.
 
 ## Usage
+
+###### 1.
+If you are always logged-in on wikipedia and on sister projects you can replace content of vector.css with the content of solarized-wikipedia.css. It may work on all mediawiki websites other than wikipeida and also on wikipedia sister projects using mediawiki software.
+
+Login to Wikipedia -> go to https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-rendering -> Select Vector theme and click on Custom CSS for it -> click on <b>Edit Source</b> -> toggle editor and paste content of solarized-wikipedia.css there. -> Save and enjoy your new theme.
+
+You can repeat this for all wikipedia sister sites.
+
+###### 2.
+User styles in browser if you don't want to login to wikipedia. Install Stylilsh plugin for Firefox. In firebox address bar type <b>about:addons</b> and hit enter. Click on User Styles and than on Write New Style. Give it a new name and save content from solarized-wikipedia.css there. Hit save and open a wikipedia page to check if it is working.
+
+##### Issues
+
+If it is not working for any reason please report it here and I will try to look into that. 
+
+<b>burn fire not eyes</b>
 
 #### Links
 
