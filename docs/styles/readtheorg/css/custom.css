@@ -1,0 +1,196 @@
+/**
+ * KEYS.css
+ *
+ * A simple stylesheet for rendering beautiful keyboard-style elements.
+ *
+ * Author:  Michael Hüneburg
+ * Website: http://michaelhue.com/keyscss
+ * License: MIT License (see LICENSE.txt)
+ * Source: https://github.com/michaelhue/keyscss
+ *
+ */
+
+/* Base style, essential for every key. */
+kbd, .key {
+	display: inline;
+	display: inline-block;
+	min-width: 1em;
+	padding: .2em .3em;
+	font: normal .85em/1 "Lucida Grande", Lucida, Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	border: none;
+	cursor: default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+kbd[title], .key[title] {
+	cursor: help;
+}
+
+/* Dark style for display on light background. This is the default style. */
+kbd, kbd.dark, .dark-keys kbd, .key, .key.dark, .dark-keys .key {
+	background: rgb(80, 80, 80);
+	background: -moz-linear-gradient(top, rgb(60, 60, 60), rgb(80, 80, 80));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(60, 60, 60)), to(rgb(80, 80, 80)));
+	color: rgb(250, 250, 250);
+	text-shadow: -1px -1px 0 rgb(70, 70, 70);
+	-moz-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+	box-shadow: inset 0 0 1px rgb(150, 150, 150), inset 0 -.05em .4em rgb(80, 80, 80), 0 .1em 0 rgb(30, 30, 30), 0 .1em .1em rgba(0, 0, 0, .3);
+}
+
+/* Light style for display on dark background. */
+kbd.light, .light-keys kbd, .key.light, .light-keys .key {
+	background: rgb(250, 250, 250);
+	background: -moz-linear-gradient(top, rgb(210, 210, 210), rgb(255, 255, 255));
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(210, 210, 210)), to(rgb(255, 255, 255)));
+	color:  rgb(50, 50, 50);
+	text-shadow: 0 0 2px rgb(255, 255, 255);
+	-moz-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	-webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+	box-shadow: inset 0 0 1px rgb(255, 255, 255), inset 0 0 .4em rgb(200, 200, 200), 0 .1em 0 rgb(130, 130, 130), 0 .11em 0 rgba(0, 0, 0, .4), 0 .1em .11em rgba(0, 0, 0, .9);
+}
+
+
+/* keybinding style
+
+kbd {
+    padding:0.1em 0.6em;
+    border:1px solid #ccc;
+    font-size:11px;
+    font-weight:bold;
+    font-family:monospace;
+    background-color:#d6d8ec;
+    color:#333;
+    -moz-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -webkit-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    margin:0 0.1em;
+    text-shadow:0 1px 0 #fff;
+    line-height:1.4;
+    white-space:nowrap;
+}
+
+hr {
+    border-top:3px double
+
+}
+*/
+
+/* for muut comments thread*/
+
+.m-body p:last-child {
+    color: #839496 !important;
+    font-size: 1.2rem !important;
+}
+
+.m-myname {
+    font-size: 1rem !important;
+    color: #839496 !important;
+}
+
+.m-meta span, .m-meta a {
+    font-size: 1rem !important;
+    color: #839496 !important;
+}
+
+.m-login {
+    font-size: 1rem !important;
+    color: #f2f2f2 !important;
+}
+
+#moot-logo .m-icon  {
+    display: none !important;
+}
+
+#moot-logo a {
+    display: none !important;
+}
+    
+.m-focused .m-postinput {
+    box-shadow: none !important;
+    border-color: #f2f2f2 !important;
+}
+
+.m-input, .m-input-wrap, .m-postinput {
+    border-radius: 0em !important;
+}
+
+.m-button, .moot button {
+    border-radius: 0em !important;
+    background-color: #073642 !important;
+}
+
+.m-expanded .m-seed .m-body-wrap, .m-expanded .m-reply {
+    border-left: 1px dashed #f2f2f2 !important;
+}
+
+#moot-logo {
+    padding: 0px !important;
+}
+
+.m-preview .m-preview-title {
+    color: #f4f4f4;
+}
+
+/* responsive tables :: http://codepen.io/dudleystorey/pen/Geprd */
+
+table { 
+
+  border-collapse: collapse;
+  text-rendering: optimizeLegibility;
+
+}
+table caption { 
+  font-size: 1rem; color: #444;
+}
+table thead th { font-weight: 600; }
+table thead th, table tbody td { 
+  font-size: 1rem;
+}
+table tbody td { 
+  font-size: 1rem;
+}
+table tbody tr:not(:last-child) { 
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;  
+}
+
+@media screen and (max-width: 600px) {
+  table caption { background-image: none; }
+  table thead { display: none; }
+  table tbody td { 
+    display: block; padding: .6rem; 
+  }
+  table tbody tr td:first-child { 
+   /* background: #EEE8D5; color: #586E75; */
+  }
+	table tbody td:before { 
+    content: attr(data-th); 
+    font-weight: bold;
+    display: inline-block;
+    width: 6rem;  
+  }
+}
+
+
+/* misc style */
+
+pre {
+    border: 1px solid #EEE8D5 !important;
+    box-shadow: none !important;
+    background: #FDF6E3;
+}
+
+#comments {
+    font-size: 135%;
+}
