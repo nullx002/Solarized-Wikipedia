@@ -12,7 +12,7 @@ If anybody interested can create a light version of this too as I almost always 
 
 ## Source
 
-This theme is orignally by <a rel"author" href="https://userstyles.org/styles/99515/wikipedia-1911-rotane">rotane</a> published on userstyles.org. I modified it according to my needs for fontsizes, spacing etc. but retained the color-palette of solarized theme by Ethan. 
+This theme is orignally by <a rel="author" href="https://userstyles.org/styles/99515/wikipedia-1911-rotane">rotane</a> published on userstyles.org. I modified it according to my needs for fontsizes, spacing etc. but retained the color-palette of solarized theme by Ethan. 
 
 I created it as a replacement for the vector.css on English version of Wikipedia but it is working on all wikipedia sister projects without any problems. It should work well with other languages on wikipedia. Original design explanation for the theme can be found <a rel="author" href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia">here</a>.
 
